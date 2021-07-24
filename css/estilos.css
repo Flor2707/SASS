@@ -1,0 +1,71 @@
+nav {
+  background-color: azure;
+}
+nav div ul li.nav-item {
+  margin-left: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+nav div ul li a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav div ul li a:hover {
+  background-color: #BA9359;
+  transform: scale(1.1, 1.1);
+}
+nav div ul li a img {
+  height: 31px;
+  width: 31px;
+}
+
+section#inicio {
+  background-image: url(../img/fondoindex.jpg);
+  background-position: center;
+  height: 900px;
+}
+section#inicio div.container {
+  margin-top: 225px;
+  font-family: "Rubik", sans-serif;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #BA9359;
+}
+section#inicio div.container a button.btn {
+  background-color: #BA9359;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 8px;
+  border: 0;
+  text-transform: uppercase;
+  border-radius: 15px;
+}
+@media screen and (max-width: 700px) {
+  section#inicio p {
+    font-size: 25px;
+    margin-top: 100px;
+  }
+}
+
+section#servicios div div.row {
+  font-size: 19px;
+  text-align: center;
+}
+section#servicios div div.row div p.mt-4 {
+  font-size: 22px;
+  color: saddlebrown;
+  text-shadow: 2px 2px 2px whitesmoke;
+}
+section#servicios div div.row div img.rounded-circle {
+  width: 35px;
+  height: 35px;
+}
+
+section.footer {
+  background-color: lightgray;
+}
+
+body {
+  background-color: #d2c7b6;
+}
+
+/*# sourceMappingURL=estilos.css.map */

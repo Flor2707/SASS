@@ -1,0 +1,10 @@
+@import "nav";
+@import "inicio";
+@import "servicios";
+@import "footer";
+@import "listas";
+
+body {
+    background-color:nth($colores,7);
+}
+

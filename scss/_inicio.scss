@@ -1,0 +1,31 @@
+@import "listas";
+section#inicio{
+    background-image: url(../img/fondoindex.jpg);
+    background-position: center;
+    height: 900px;
+    div.container {
+    margin-top: 225px;
+    font-family: "Rubik", sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 2px nth($colores,1);
+    a {
+     button.btn {
+        background-color: nth($colores,1);
+        color: nth($colores,3);
+        font-size: 16px;
+        letter-spacing: 8px;
+        border: 0;
+        text-transform: uppercase;
+        border-radius: 15px;
+     }
+    }
+    }
+    @media screen and (max-width: 700px) {
+
+        p {
+          font-size: 25px;
+          margin-top: 100px;
+       }
+  }
+}
+

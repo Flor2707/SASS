@@ -1,0 +1,30 @@
+@import "listas";
+nav {
+    background-color:nth($colores,2);
+    div {
+        ul { 
+            li.nav-item {
+                margin-left: 30px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        
+            
+            li {
+                a {padding-left: 20px;
+                   padding-right: 20px;
+                    &:hover {
+                        background-color:nth($colores,1);
+                        transform: scale(1.1,1.1);
+                    }
+                 img {
+                    height: 31px;
+                    width: 31px;
+                }
+            
+            }
+        }
+    }
+}
+}
+    
